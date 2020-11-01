@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  background:grey;
+}
+
+.mainConteiner {
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  display: flex;
+}
+
+.leftSidebar {
+  width: 300px;
+  height: 600px;
+  border-right: 1px solid rgb(239, 239, 239);
+  background-color:rgb(245, 245, 245);
+}
+
+.userImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.searchInput {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 250px;
+  display: flex;
+  height: 30px;
+  border-radius: 15px;
+  outline: none;
+  background-image: url(/public/images/search.png) no-repeat 5px 5px;
+  padding-left: 35px;
+  border: 1px solid rgb(239, 239, 239);
+}
+
+.chats {
+  margin-top: 20px;
+  border-top: 1px solid rgb(239, 239, 239);
+  background-color: white;
+  width: auto;
+  height: 432px;
+  overflow: hidden;
+  overflow-y: auto;
+  
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -25px;
+  left: 30px;
+}
+
+.row {
+  color:rgb(120, 177, 202);
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.contact {
+  list-style-type: none;
+  width: 300px;
+  height: 80px;
+  border-bottom: 1px solid rgb(239, 239, 239) ;
+  padding-top: 20px;
+  position: relative;
+
+}
+
+.contactPic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+ul {
+  margin-top: 40px;
+  display: block;
+
+}
+
+.contactName {
+  display: inline;
+  position: absolute;
+  margin-left: 20px;
+  color: rgb(134, 134, 134);
+}
+
+.contactMassage {
+  display: inline-flex;
+  margin-left: 20px;
+  width: 200px;
+  overflow-wrap: break-word;
+  margin-top: 25px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.date {
+  position: absolute;
+  display: inline;
+  margin-left: 160px;
+  color: rgb(134, 134, 134);
+}
+
+.headerHistory {
+  background-color: black;
+  height: 80px;
+  width: inherit;
+  background-color: rgb(245, 245, 245);
+  border-bottom: 1px solid rgb(239, 239, 239);
+
+}
+
+.historyIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.historyContactName {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 25px;
+}
+
+.sectionHistory {
+  margin-top: 20px;
+  height: 400px;
+  background-color:rgb(255, 255, 255);
+  width: 500px;
+  border-bottom: 1px solid rgb(239, 239, 239);
+  overflow-y: auto;
+}
+
+.headerConteiner {
+  display: flex;
+}
+
+.sectionInput {
+  background-color: rgb(245, 245, 245);
+  height: 120px;
+}
+
+.inputSendMassage {
+  width: 450px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 35px;
+  border-radius: 20px;
+  border: 1px solid rgb(239, 239, 239);
+  outline: none;
+  padding-left: 15px;
+  padding-right: 50px;
+}
+
+.sendButton {
+  height: 37px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  background-color: white;
+  top: -39px;
+  left: 432px;
+  background-image: url(/public/images/Send.png) 5px 5px ;
+  outline: none;
+}
+
+.sendIcon {
+  height: 25px;
+  width: 30px;
+}
+
+.userMassage {
+  display: flex;
+  padding-top: 15px;
+}
+
+.userMassagePic {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.textOfMassage {
+  background-color: rgb(60, 66, 82);
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  white-space: normal;
+  max-width: 300px;
+  height: inherit;
+  overflow-wrap: anywhere;
+  padding-bottom: 10px;
+}
+
+.massageDate {
+  margin-left: 70px;
+  color: rgb(174, 174, 174);
+  margin-top: 5px;
+}
+
+.myTextMassage {
+  background-color: rgb(244, 244, 244);
+  max-width: 300px;
+  height: inherit;
+  border-radius: 20px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 10px;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.myMassageConteiner {
+  position: relative;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 70px;
+}
+
+.myMassageDate {
+  color: rgb(174, 174, 174);
+  margin-top: 5px;
+  margin-right: 5px;
+  position: absolute;
+  right: 0px;
+  width: max-content;
+} 
+
+.myMassageBlock {
+  position: absolute;
+  right: 0px;
+}  
